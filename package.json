@@ -1,13 +1,12 @@
 {
-  "name": "mikro-orm-bug",
+  "name": "mikro-orm-joined-bug",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node index.ts",
     "build": "tsc",
-    "init": "tsc --init"
+    "schema:fresh": "mikro-orm schema:fresh --run"
   },
   "author": "",
   "license": "ISC",
