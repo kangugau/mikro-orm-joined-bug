@@ -1,0 +1,33 @@
+{
+  "name": "mikro-orm-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "init": "tsc --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "^5.6.16",
+    "@mikro-orm/mysql": "^5.6.16",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@mikro-orm/cli": "^5.6.16",
+    "@types/uuid": "^9.0.1",
+    "prettier": "2.8.7",
+    "typescript": "^5.0.4"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
+  }
+}
