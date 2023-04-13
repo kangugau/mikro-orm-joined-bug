@@ -9,4 +9,4 @@ then start the script
 pnpm start
 ```
 
-Result from 2 strategies is different!
+Results from 2 strategies are different!
